@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 import {deathWithDignity} from "@benev/argv"
 import {batchConvert} from "./batch-convert.js"
