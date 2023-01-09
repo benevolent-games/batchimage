@@ -1,11 +1,11 @@
 
 # 🖼️ `@benev/batchimage` convert images
 
-***bulk image conversion and compression, command-line tool***
+***command-line tool for converting and compressing images***
 
 it reads a folder with images in it, and then generates and outputs images into a different directory.
 
-the output directory will have the same structure.
+it's recursive, and the output directory will have the same structure.
 
 assuming you've installed `nodejs`, you do it like this:
 

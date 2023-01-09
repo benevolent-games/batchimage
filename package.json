@@ -1,7 +1,7 @@
 {
 	"name": "@benev/batchimage",
 	"version": "0.0.0-dev.0",
-	"description": "command-line program for automating the batch conversion of images",
+	"description": "command-line tool for converting and compressing images",
 	"license": "MIT",
 	"author": "Chase Moskal <chasemoskal@gmail.com>",
 	"type": "module",
