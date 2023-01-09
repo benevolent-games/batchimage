@@ -4,10 +4,9 @@ import sharp from "sharp"
 import shell from "shelljs"
 
 import {Params} from "./params.js"
-import {undash} from "./undash.js"
 
 export async function convertImage(inputImage: string, params: Params) {
-	const {indir, out, format, quality, size} = undash(params)
+	const {in: indir, out, format, quality, size} = params
 
 	const inputParse = path.parse(inputImage)
 	const inPath = path.resolve(indir, inputImage)
