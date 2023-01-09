@@ -5,8 +5,8 @@
 	"license": "MIT",
 	"author": "Chase Moskal <chasemoskal@gmail.com>",
 	"type": "module",
-	"main": "./x/index.js",
-	"bin": "./x/cli.js",
+	"main": "x/index.js",
+	"bin": "x/cli.js",
 	"files": [
 		"x",
 		"s"
