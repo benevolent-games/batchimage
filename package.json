@@ -5,12 +5,12 @@
 	"license": "MIT",
 	"author": "Chase Moskal <chasemoskal@gmail.com>",
 	"type": "module",
-	"main": "x/index.js",
+	"main": "./x/index.js",
+	"bin": "./x/cli.js",
 	"files": [
 		"x",
 		"s"
 	],
-	"bin": "x/cli.js",
 	"scripts": {
 		"build": "run-s clean compile",
 		"clean": "rm -rf x && mkdir x",
