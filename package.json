@@ -16,7 +16,8 @@
 		"clean": "rm -rf x && mkdir x",
 		"compile": "tsc",
 		"start": "run-p watch",
-		"watch": "tsc -w"
+		"watch": "tsc -w",
+		"test": "exit 0"
 	},
 	"dependencies": {
 		"@benev/argv": "^0.1.0",
